@@ -14,11 +14,13 @@
         "doctrine/doctrine-migrations-bundle": "^3.3",
         "doctrine/orm": "^3.1",
         "runtime/frankenphp-symfony": "^0.2.0",
+        "stof/doctrine-extensions-bundle": "^1.10",
         "symfony/console": "7.0.*",
         "symfony/dotenv": "7.0.*",
         "symfony/flex": "^2",
         "symfony/framework-bundle": "7.0.*",
         "symfony/runtime": "7.0.*",
+        "symfony/security-bundle": "7.0.*",
         "symfony/yaml": "7.0.*"
     },
     "config": {
@@ -67,7 +69,7 @@
     "extra": {
         "symfony": {
             "allow-contrib": false,
-            "require": "7.0.*",
+            "require": "6.4.*",
             "docker": true
         }
     },
